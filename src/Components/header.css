@@ -1,0 +1,41 @@
+.Header{
+  padding:10px; 
+  text-align: center;
+}
+
+h1{
+
+font-family: 'Permanent Marker';
+font-size: 80px
+}
+.tracking-in-contract {
+	animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+
+.skateboardWheel:hover{
+position:center;
+animation: spin 0.5s infinite linear;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotateZ(0);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}

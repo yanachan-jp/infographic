@@ -1,0 +1,45 @@
+.wheelDurometerContainer{
+    margin: 20px;
+    align-items: top;
+    display: flex;
+    justify-content: center;
+    flex-direction:table-row;
+height: 350px
+}
+
+ul,li{
+    font-family: 'Permanent Marker';
+}
+.outlineWheelHard{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+.outlineWheelHard:hover{
+    width: 100px;
+    height: 100px;
+    animation: bounceHard 0.5s ;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  animation-iteration-count: 2;
+}
+@keyframes bounceHard {
+    from { transform: translate3d(0, 0, 0);     }
+    to   { transform: translate3d(0, 150px, 0); }
+  } 
+
+.outlineWheelSoft{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+.outlineWheelSoft:hover{
+    width: 100px;
+    height: 100px;
+    animation: bounceSoft 0.5s infinite;
+    animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+    animation-iteration-count: 3;}
+    
+    @keyframes bounceSoft {
+        from { transform: translate3d(0, 0, 0);     }
+        to   { transform: translate3d(0, 150px, 0); }
+      } 
