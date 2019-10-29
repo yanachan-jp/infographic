@@ -15,14 +15,14 @@ p{
 
 .wheelSize{
     font-family: 'Permanent Marker';
-    justify-content: center;
+    text-align: center;
 }
 
 .WheelDiagram-container{
-    align-items: center;
+    align-items: baseline;
     display: flex;
     justify-content: center;
-    flex-direction:table-row;
+    flex-direction:row;
 }
 
 

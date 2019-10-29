@@ -39,3 +39,7 @@ animation: spin 0.5s infinite linear;
 		transform: rotateZ(360deg);
 	}
 }
+
+a{
+  text-align: center;
+}

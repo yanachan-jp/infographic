@@ -29,10 +29,10 @@ const WheelDiameter
 <img className='outlineWheel4' src={outlineWheel} alt="skateboard wheel" />
         <div className='wheelSize'>60mm</div>
 
-        <div class='line'></div>
+ 
 </div>
-  
-    
+
+
 
 
 

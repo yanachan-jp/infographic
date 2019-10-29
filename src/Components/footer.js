@@ -1,11 +1,14 @@
 import React from 'react';
-
+import './footer.css'
 const Footer
  = () => {
     return ( 
-        <div>
-            <h2>footer</h2>
-            <p> Date created: 29/10/2019</p>
+        <div className='footer'>
+            <h2>References</h2>
+            <a href="https://www.warehouseskateboards.com/help/Skateboard-Wheels-Buying-Guide">
+                WarehouseSkateboards - Skateboard Wheel Guide
+            </a>
+            <p>Date created: 29/10/2019</p>
         </div>
      );
 }

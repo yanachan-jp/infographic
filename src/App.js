@@ -4,7 +4,7 @@ import WheelDiameter from './Components/wheelDiameter';
 import WheelDurometer from './Components/wheelDurometer';
 import ContactPatch from './Components/contactPatch';
 import Footer from './Components/footer'
-
+import './App.css'
 
 function App() {
   return (
