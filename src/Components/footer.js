@@ -4,6 +4,8 @@ const Footer
  = () => {
     return ( 
         <div className='footer'>
+<div id></div>
+
             <h2>References</h2>
             <a href="https://www.warehouseskateboards.com/help/Skateboard-Wheels-Buying-Guide">
                 WarehouseSkateboards - Skateboard Wheel Guide

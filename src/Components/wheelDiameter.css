@@ -16,7 +16,15 @@ p{
 .wheelSize{
     font-family: 'Permanent Marker';
     text-align: center;
+    animation-delay: 2s;
+   animation: fadein 4s linear forwards;
+
 }
+
+@keyframes fadein {
+    50% { opacity: 1; }
+}
+
 
 .WheelDiagram-container{
     align-items: baseline;
@@ -49,5 +57,31 @@ p{
 .outlineWheel4{
     width: 150px;
     height: 150px;
+
+}
+
+.speedLine, .accelerationLine{
+    width: 28em;
+    height: 5px;
+    background: black;
+    margin: 20px auto;
+    border-color: black;
+    text-align:center;
+    animation: line 2s ease-in;
+}
+
+@keyframes line {
+    from {
+      left:0;
+      width:0;
+    }
+    to {
+      left:0%;
+      width:28em;
+    }
+}
+
+.label {
+position: absolute;
 
 }
