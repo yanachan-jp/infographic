@@ -2,7 +2,7 @@
     font-family: 'Permanent Marker';
 }
 
-h2{
+h2,hr{
     font-family: 'Permanent Marker';
     text-align: center;
 }
@@ -12,12 +12,9 @@ p{
     font-family: 'Permanent Marker';
 }
 
-
 .wheelSize{
     font-family: 'Permanent Marker';
     text-align: center;
-    animation-delay: 2s;
-   animation: fadein 4s linear forwards;
 
 }
 
@@ -25,15 +22,12 @@ p{
     50% { opacity: 1; }
 }
 
-
 .WheelDiagram-container{
     align-items: baseline;
     display: flex;
     justify-content: center;
     flex-direction:row;
 }
-
-
 
 .break-row{
     flex-basis: 100%;
@@ -63,9 +57,11 @@ p{
 .speedLine, .accelerationLine{
     width: 28em;
     height: 5px;
+    border: none;
+    border-top: 5px double #333;
+    overflow: visible;
     background: black;
-    margin: 20px auto;
-    border-color: black;
+    margin: 10px auto;
     text-align:center;
     animation: line 2s ease-in;
 }
@@ -80,8 +76,41 @@ p{
       width:28em;
     }
 }
+.speedLine:after { 
+    background: #fff;
+    content: 'Speed';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;}
 
-.label {
-position: absolute;
+.accelerationLine:after {
+    background: #fff;
+    content: 'Acceleration';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.SpeedContainer, .AccelerationContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    max-width: 35em;
+    margin:  auto;
+}
+
+.label, .wheelSize{
+    animation: opacity 2s ease-in;
+}
+
+@keyframes opacity{
+from{
+    opacity:0
+}
+to{
+    opacity:1
+}
 
 }
+

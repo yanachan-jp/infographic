@@ -32,17 +32,25 @@ const WheelDiameter
  
 </div>
 
-
-
-
-
-
 </div>
 
-< hr class='speedLine' data-content='Speed'></hr>
-<p class='label'>Speed</p>
-< hr class='accelerationLine'></hr>
-<p class='label'>Acceleration</p>
+<div className='SpeedContainer'>
+<p className='label'>Less</p>
+< hr class='speedLine' ></hr>
+<p className='label'>More</p>
+{/* <p class='label'>Speed</p> */}
+</div>
+
+
+<div className='AccelerationContainer'>
+<p className='label'>Quick</p>
+< hr class='accelerationLine' ></hr>
+<p className='label'>Slow</p>
+{/* <p class='label'>Acceleration</p> */}
+</div>
+
+
+
         <p>
         In addition to size variations, skateboard wheels also come in different shapes, or cuts, including narrow or wide lip, and cruiser wheel shape. If you’re looking for a ride with less friction and weight, the narrow lip wheels are the way to go, and can help you master that next trick because they’re much more responsive to quick movements.
         </p>
